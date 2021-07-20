@@ -1,15 +1,15 @@
-# create node
+# create node class
 class Node:
     def __init__(self,data):
         self.data = data
         self.ref = None
 
-# create Linklist
+# create Linklist class
 class linkedList:
     def __init__(self):
         self.head = None
     
-    # traversal
+    # traversal operation
     def print_list(self):
         if self.head is None:
             print("Linked list is empty")
